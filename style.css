@@ -1,0 +1,189 @@
+body{
+    background-color: lightslategrey;
+    
+      background-image: url(Imagenes/fondo.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+     
+    }
+
+.logo {
+        
+        float:inline-start;
+}
+    
+.slogo{
+    float: left;
+    width: 90px;
+    height: 100px;
+    float:inline-start;
+        
+}
+
+
+
+h1{
+  text-align: center;
+}
+div.relative{
+    position: relative;
+    left: 30px;
+    padding-right: 30px;
+    padding-left: 80px;
+    }
+* {
+  box-sizing: border-box;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+input[type=number]{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+input[type=password]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    width: 100%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+    
+  }
+
+ 
+  .container{
+	width:95%;
+	max-width:900px;
+	padding:32px 64px;
+	margin:auto;
+}
+h2{
+	font-size:medium;
+	float:calc(75%);
+}
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+  /* whatsapp*/
+.btn-wsp{
+	position: fixed;
+    width: 55px;
+    height: 55px;
+    line height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px #999;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+/* whatsapp */
+.btn-wsp:hover {
+	text-decoration: none;
+	color: #0df053;
+	background: #FFF;
+	margin-top: 50px;
+	
+}
+
+
+  a{
+    text-decoration: none !important;
+  }
+
+  .contacto { 
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around !important;
+  }
+
+  .email {
+    padding-left: 10px;
+  }
+
+.product-container {
+  height: 550px;
+}
+
+.product-container img { 
+  height: 350px;
+  width: 350px;
+}
+
+.product-container button {
+  bottom: 0;
+  justify-content: space-between;
+}
+
+.galeria{
+  padding: 16px;
+}
+.imagen-principal img{
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.lista-imagenes img{
+  width: 100%;
+  object-fit: cover;
+  width: 350px;
+  height: 100px;
+  margin-right: 5px;
+}
+.lista-imagenes{
+  display: flex;
+  overflow-y: auto;
+}

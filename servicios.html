@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagenes/x-icon" href="imagenes/logo_blanco.jpeg">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="estilo_bootstrap.css" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <title>Sytronic Tech</title>
+</head>
+
+<body background-image="Imagenes/fondo.png">
+    
+    <nav class="navbar navbar-expand-lg navbar-info fixed-top navbar-shrink contacto" style="background-color:  #fff; padding-left: 50px;">
+        <div class="phone"><i  class="fa fa-phone" aria-hidden="true"></i><a href="https://api.whatsapp.com/send?phone=573136160790&text=Bienvenido! ¿Como podemos ayudarte?" class="text-gray-70 font-size-13 u-header-topbar__nav-link mr-1">(+57)3136160790</a></div>
+        <div class="email"><i  class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:contactemos@sytronictech.com" class="text-gray-70 font-size-13 u-header-topbar__nav-link">contactemos@sytronictech.com</a></div>  
+    </nav>  
+       
+        <div class="container">
+            <div class="container-fluid p-5 bg-black">
+                <div class="topbar-left">
+                    <img class="slogo" src="Imagenes/logo.jpeg">
+                    <img class="logo" src="Imagenes/slogo.jpg">
+                      
+                </div>
+                
+            </div>
+        
+            <nav class="navbar navbar-expand-lg navbar-info " style="background-color:  #1dc3ff;">
+                
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">  
+                    <ul class="nav nav-tabs">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Pagina Inicio <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#quienes">¿Quienes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#equipo">Equipo de trabajo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Nuestros Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#marcas">Proveedores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=" ">Registro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=" "data-bs-toggle="modal" data-bs-target="#lg">Iniciar sesión</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </nav>  
+                   
+       
+        <div class="modal" id="lg">
+            <div class="modal-dialog">
+                <div class="modal-content">
+            
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Inicio Sesión</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+            
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="container mt-3">
+                        <div class="mb-3 mt-3">
+                        <label>Usuario</label>
+                        <input type="text" class="form-control" placeholder="Username" required>
+                        </div> 
+                        <div class="mb-3 mt-3">
+                        <label>Contraseña</label>
+                        <input type="password" class="form-control" placeholder="Password" required><br>
+                        <a href="img/bienvenidos.gif" class="btn btn-primary">Ingresar</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-5 text-black text-center">
+          <h1>Nuestros Servicios</h1> 
+        </div>
+        
+        <div class="row">
+            <div class="col-6 ">
+                <div class="product-container">
+                    <h2 class="mt-5">ALARMAS DE INTRUSIÓN E INCENDIO</h2>
+                    <div class="fakeimg"><img src="Imagenes/ALARMAS (1).png" class="img-thumbnail" width="500" height="500"></div>
+                    <p>PRECIO $1.800.000</p>
+                    <p>KIT DE ALARAMA DSC 8 SENSORES Y 3 CONTACTOS MAGNETICOSS.</p>
+                    <button type="button" class="btn btn-info">Agregar al carrito</button>
+                </div>
+                <div class="product-container">
+                    <h2 class="mt-5">CONTROL DE ACCESO</h2>
+                    <div class="fakeimg"><img src="Imagenes/c.a.png" class="img-thumbnail" width="500" height="500"></div>
+                    <p>PRECIO $1.750.000</p>
+                    <p>KIT DE CONTROL DE ACCESO IP.</p>
+                    <button type="button" class="btn btn-info">Agregar al carrito</button>
+                </div>
+                <div class="product-container">
+                    <h2 class="mt-5">DOMÓTICA</h2>
+                    <div class="fakeimg"><img src="Imagenes/domotica.png" class="img-thumbnail" width="500" height="500"></div>
+                    <p>KIT CONTROL 4 BASICO.</p>
+                    <button type="button" class="btn btn-info">SOLICITAR COTIZACION</button>
+                </div>
+
+            </div>
+              <div class="col-6">
+                <div class="product-container">
+                    <h2 class="mt-5">SISTEMA DE CABLEADO ESTRUCTURADO</h2>
+                    <div class="fakeimg "><img src="Imagenes/cableado.png" width="500" height="500"></div>
+                    <p>INSTALACION Y SUMINISTRO DE CABLEADO PARA DATOS Y TELEFONIA.</p>
+                    <button type="button" class="btn btn-info">SOLICITAR COTIZACION</button>
+                </div>
+
+                <div class="product-container">
+                    <h2 class="mt-5">CITOFONIA</h2>
+                    <div class="fakeimg "><img src="Imagenes/video_citofonia.png" class="img-thumbnail" width="500" height="500"></div>
+                    <p>PRECIO $5.500.000</p>
+                    <p>KIT VIDEOPORTERO IP CON RECONOCIMIENTO FACIAL PARA 6 APARTAMENTOS.</p>
+                    <button type="button" class="btn btn-info">Agregar al carrito</button>                      
+                </div>
+                <div class="product-container">
+                    <h2 class="mt-5">CÁMARAS DE SEGURIDAD</h2>
+                    <div class="fakeimg "><img src="Imagenes/CAMARAS.png" class="img-thumbnail" width="500" height="500"></div>
+                    <p>PRECIO $1.500.000</p>
+                    <p>KIT CAMARAS DE SEGURIDAD HIKVISION 5 Mpx-DVR 8ch+6 CAM+DISCO.</p>
+                    <button type="button" class="btn btn-info">Agregar al carrito</button>
+                </div>
+                <div class="product-container">
+                    <h2 class="mt-5">AUTOMATIZACIÓN DE PUERTAS</h2>
+                    <div class="fakeimg "><img src="Imagenes/PUERTAS.png" class="img-thumbnail" width="500" height="500"></div>
+                    <p>PRECIO $4.500.000</p>
+                    <p>KIT MOTRES ELECTROMECANIVOS DITEC PWR25H 24V PUERTAS BATIENTES USO INTENSIVO HOJAS DE 2.5M.</p>
+                    <button type="button" class="btn btn-info">Agregar al carrito</button>
+                </div>
+    
+
+              </div>
+        </div>
+        
+        
+        <div class="mt-5 p-4 bg-dark text-white text-center">
+          <p>&copy; 2023 Sytronic Tech</p>
+        </div>
+                
+               
+        
+    </div>
+</body>
+<footer>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <a href="https://api.whatsapp.com/send?phone=573136160790&text=Bienvenido! ¿Como podemos ayudarte?" class="btn-wsp" target="_blank">
+      <i class="fab fa-whatsapp my-float"></i>
+    </a>
+  </footer>
+
+</html>
